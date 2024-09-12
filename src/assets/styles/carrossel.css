@@ -1,0 +1,27 @@
+
+.botoes.carrossel .botao{
+    background-color: black;
+    width: 0.938rem;
+    height: 0.938rem;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #DEB887;
+    position: relative;
+    bottom:50px;
+}
+
+.botoes.carrossel .botao.selecionado{
+    background-color: #DEB887;
+}
+
+.imagem{
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.imagem.ativa{
+    display: block;
+    animation: mudarImagem 0.7s;
+}

@@ -1,0 +1,39 @@
+.section.sobre{
+    width: 100%;
+    background-color: #FFDEAD;
+    display: flex;
+    border-bottom: 5px solid transparent;
+}
+
+
+.container.sobre{
+    background-color: #DEB887;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    padding: 2rem;
+    flex-wrap: wrap;
+    padding-right: 2rem;
+    width: 1200px;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-top: 5rem;
+    align-items: flex-start;
+}
+
+.paragraph.sobre{
+   width: 400px;
+   line-height: 35px;
+   display: flex;
+}
+
+.title.sobre{
+    font-size: 40px;
+}
+
+.img.sobre{
+    max-width: 200px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}

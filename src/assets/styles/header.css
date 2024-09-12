@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    background-color:#FFDEAD;
+    border-bottom: 5px solid transparent;
+}
+
+.container.header{
+    width: 1200px;
+    display: flex;
+    background-color: #DEB887;
+    margin: 0 auto;
+    padding-top: 1rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.logo.header{
+    max-width: 200px;
+    padding-left: 2rem;
+    background-color: transparent;
+}
+
+.home.header{
+    color: black;
+    font-size: 25px;
+}
+
+.galeria.header{
+    color: black;
+    font-size: 25px;
+}
+
+.mini.container.header{
+    display: flex;
+    background-color: transparent;
+    gap: 1rem;
+    padding-right: 5rem;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    position:relative;
+    top: -70px;
+}
