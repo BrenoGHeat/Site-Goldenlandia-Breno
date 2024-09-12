@@ -5,7 +5,7 @@ header{
 }
 
 .container.header{
-    width: 1200px;
+    width: 75rem;
     display: flex;
     background-color: #DEB887;
     margin: 0 auto;
@@ -16,7 +16,7 @@ header{
 }
 
 .logo.header{
-    max-width: 200px;
+    max-width: 12.5rem;
     padding-left: 2rem;
     background-color: transparent;
 }

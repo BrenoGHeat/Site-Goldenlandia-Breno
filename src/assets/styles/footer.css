@@ -4,7 +4,7 @@ footer{
 }
 
 .container.footer{
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     background-color:#DEB887;
     display: flex;

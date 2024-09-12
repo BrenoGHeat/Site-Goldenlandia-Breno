@@ -13,7 +13,7 @@
 }
 
 .container.galeria{
-    max-width: 1200px;
+    max-width: 75rem;
     display: flex;
     margin: 0 auto;
     background-color:#DEB887;
